@@ -6,6 +6,7 @@ function error (html) {
     // console.log(bread.name)
       return (
         <Default>
+            <h1>Error 404</h1>
             <li><a href="/breads">Go home</a></li>
         </Default>
 
