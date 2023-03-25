@@ -10,17 +10,10 @@ function New () {
           <input type="text" name="name" id="name" required />
 
           <label htmlFor="image">Image</label>
-          <input
-            type="text"
-            name="image"
-            id="image"/>
+          <input type="url" id="website" name="website" pattern="https?://.+" title="Include http://" required/>
+
           <label htmlFor="hasGluten">Has Gluten?</label>
-          <input
-            type="checkbox"
-            name="hasGluten"
-            id="hasGluten"
-            defaultChecked
-          />
+          <input type="checkbox" name="hasGluten" id="hasGluten" defaultChecked/>
           <br />
           <input type="submit"/>
         </form>
